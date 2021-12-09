@@ -128,11 +128,11 @@ a:hover {
 }
 
 .layer1 {
-    background-image: url(./assets/images/layer1.svg);
+    background-image: url(../images/layer1.svg);
 }
 
 .layer2 {
-    background-image: url(./assets/images/layer2.svg);
+    background-image: url(../images/layer2.svg);
 }
 
 /* shape divider header */
