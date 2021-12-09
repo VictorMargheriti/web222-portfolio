@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Staatliches&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+    color: #fff;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 30rem;
+    padding: 100px 20vw;
+}
+
+ul {
+    list-style: none;
+}
+
+#hello-world {
+    font-family: 'Press Start 2P', cursive;
+    color: #757575;
+}
+
+.header-options {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-options li {
+    border: 2px solid #fafafa;
+    padding: 0.5rem;
+    transition: all .4s ease-in-out;
+}
+
+.header-options li:hover {
+    border: 2px solid #212121;
+}
+
+.basic {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fafafa;
+    transition: all .4s ease-in-out;
+}
+
+a:hover {
+    color: #212121;
+    transform: scale(1.1);
+}
+
+.head {
+    padding: 0;
+}
+
+.title {
+    font-size: 80px;
+    color: #fafafa;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: #212121;
+}
+
+.highlight {
+    color: #212121;
+}
+
+
+.blue {
+    background: #07689F;
+}
+
+.lightblue {
+    background: #a2d5f2;
+}
+
+.offwhite {
+    background: #fafafa;
+}
+
+.peach {
+    background: #ff7e67;
+}
+
+.dark {
+    background: #212121;
+}
+
+.grey {
+    background: #757575;
+}
+
+.lightgrey {
+    background: #BDBDBD;
+}
+
+.white {
+    background: #ffffff;
+}
+
+.darkfont {
+    color: #202731;
+}
+
+
+/* haikei */
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url(/assets/images/layer1.svg);
+}
+
+.layer2 {
+    background-image: url(/assets/images/layer2.svg);
+}
+
+/* shape divider header */
+.custom-shape-divider-top-1638863724 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1638863724 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.custom-shape-divider-top-1638863724 .shape-fill {
+    fill: #07689F;
+}
+
+/* shape divider peach-bottom */
+.custom-shape-divider-top-1639021517 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1639021517 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 29px;
+}
+
+.custom-shape-divider-top-1639021517 .shape-fill {
+    fill: #FF7E67;
+}
+
+/* mobile-responsive media queries */
