@@ -102,6 +102,7 @@ a:hover {
 
 .head {
     padding: 0;
+    height: 100vh;
 }
 
 .title {
@@ -127,6 +128,7 @@ a:hover {
 
 .container-horizontal {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -137,6 +139,7 @@ a:hover {
     transition: all .4s ease-in-out;
     padding: 2rem;
     margin: 2rem;
+    width: 250px;
   }
   
   .card:hover {
@@ -245,6 +248,8 @@ a:hover {
 }
 
 /* mobile-responsive media queries */
-@media screen and (max-width: 768px) {
-    .container {}
-}
+@media (max-width: 800px) {
+    .container-horizontal {
+      flex-direction: column;
+    }
+  }
