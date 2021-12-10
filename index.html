@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <section class="blue head">
-        <div>
+        <div data-aos="fade-up" data-aos-delay="300">
             <h1 id="hello-world">Hello, world.<br><br>My name is</h1>
             <h1 class="title"><span class="highlight">V</span>ictor <span class="highlight">M</span>argheriti</h1>
             <ul class="header-options">
@@ -28,23 +30,50 @@
             </svg>
         </div>
     </section>
-    <!-- <div class="spacer layer2"></div> -->
+    <div class="spacer layer2"></div>
     <section class="offwhite">
-        <h1 class="darkfont">About Me</h1>
-        <br>
-        <p class="darkfont">I am a Frontend developer with special care for the user experience. I am always passionate for learning new technologies and methodologies</p>
-        <br>
-        <p class="darkfont">and will forever be a lifelong student, bursting with curiousity.</p>
+        <div class="container" data-aos="fade-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div class="left">
+                <h1 class="darkfont">About Me</h1>
+                <br>
+                <p class="darkfont">I am a Frontend developer with special care for the user experience. I'm always passionate for learning new technologies and methodologies</p>
+                <p class="darkfont">and will forever be a lifelong student, bursting with curiousity.</p>
+            </div>
+            <div class="right">
+                <h1 class="darkfont">basic information</h1>
+                <ul class="basic">
+                    <br>
+                    <li>Student ID: 153097209</li>
+                    <li>dob: 11/21/1988</li>
+                    <li>Email: vmargheriti@myseneca.ca</li>
+                    <li>languages spoken: english, filipino, some italian and some korean</li>
+                </ul>
+            </div>
+        </div>
     </section>
     <div class="spacer layer1"></div>
+    <div id="education">
+        <h1><i class="fas fa-graduation-cap"></i> education</h1>
+    </div>
     <section class="peach">
-        <h1>basic information</h1>
-        <ul class="basic">
-            <li><span class="highlight">Student ID:</span> 153097209</li>
-            <li><span class="highlight">Age:</span> 33</li>
-            <li><span class="highlight">Email address:</span> vmargheriti@myseneca.ca</li>
-            <li><span class="highlight">languages spoken:</span> english, italian, filipino, korean</li>
-        </ul>
+        <div class="container-horizontal">
+            <div class="card">
+                <div class="cardcontainer">
+                    <h1><b>2004-2007</b></h1>
+                    <p>Bachelor's Degree</p>
+                    <h1><b>marketing management</b></h1>
+                    <p>De La Salle University</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardcontainer">
+                    <h1><b>2020-2023</b></h1>
+                    <p>Associate's Degree</p>
+                    <h1><b>Computer Programming</b></h1>
+                    <p>Seneca College</p>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="dark">
         <div class="custom-shape-divider-top-1639021517">
@@ -54,20 +83,28 @@
                 <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
             </svg>
         </div>
-        <h1>curves</h1>
-        <p>Porro et vel doloribus dolorem obcaecati, laborum enim sed cumque at, ullam voluptates praesentium itaque quidem numquam saepe eius eaque ad dolores modi maxime illo eum. Ea veritatis officia saepe!</p>
+        <h1>Write a reflection here</h1>
+        <br>
+        <p>150-300 words in length. <br><br>
+            a. Explain your experience about the WEB222 course?<br><br>
+            b. What you learned in this course?<br><br>
+            c. Where you feel the concepts of WEB222 will help you?<br><br>
+            d. Basically, you must describe your learning experience in this course.<br><br>
+            • Your reflection should be free of typos and grammatical/spelling errors and use full
+            sentences and paragraphs. If you quote or reference any resources online, make sure
+            you include proper citations (Do not COPY/PASTE without reference). Your reflection
+            must also be your own work. You may not collaborate or copy material from other
+            sources or students.</p>
     </section>
     <section class="grey">
-        <h1>curves</h1>
-        <p>Necessitatibus blanditiis impedit mollitia magnam reiciendis, tempore vel sint nihil dolores harum ducimus fuga iste voluptatibus similique laboriosam quidem aliquam, praesentium delectus quod facilis eveniet vero autem, eos vitae. Eum?</p>
+        <h1>Showcase my other websites</h1>
     </section>
     <section class="lightgrey">
-        <h1 class="darkfont">curves</h1>
-        <p class="darkfont">Libero sunt itaque sit reprehenderit dicta adipisci cumque repudiandae pariatur ratione aut. Delectus et, ipsam numquam illo aliquid repellat quo fugiat animi non, soluta odit alias ea temporibus saepe inventore.</p>
+        <h1 class="darkfont">Probably a footer section with some socials</h1>
     </section>
-    <section class="white">
-        <h1 class="darkfont">curves</h1>
-        <p class="darkfont">Illo officia, rerum repellat exercitationem numquam similique sunt. Temporibus voluptate aperiam voluptas repellat impedit consequatur libero fugiat possimus nobis recusandae error sequi saepe voluptatum in iste reprehenderit exercitationem, sapiente facilis!</p>
-    </section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

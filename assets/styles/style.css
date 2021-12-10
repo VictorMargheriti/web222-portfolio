@@ -44,8 +44,47 @@ ul {
     border: 2px solid #212121;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    padding-right: 10%;
+    transition: all .4s ease-in-out;
+}
+
+.left:hover {
+    transform: scale(1.5);
+    padding-right: 12%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    padding-left: 10%;
+    transition: all .4s ease-in-out;
+}
+
+.right:hover {
+    transform: scale(1.5);
+    padding-left: 12%;
+}
+
 .basic {
-    text-align: left;
+    text-align: center;
+}
+
+.basic li {
+    color: #202731;
 }
 
 a {
@@ -80,6 +119,34 @@ a:hover {
     color: #212121;
 }
 
+#education {
+    background-color: #ff7e67;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.container-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #f2c6b4;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all .4s ease-in-out;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  
+  .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+  }
+  
+  .cardcontainer {
+    padding: 2px 16px;
+  }
 
 .blue {
     background: #07689F;
@@ -128,11 +195,11 @@ a:hover {
 }
 
 .layer1 {
-    background-image: url(layer1.svg);
+    background-image: url(/assets/images/layer1.svg);
 }
 
 .layer2 {
-    background-image: url(layer2.svg);
+    background-image: url(/assets/images/layer2.svg);
 }
 
 /* shape divider header */
