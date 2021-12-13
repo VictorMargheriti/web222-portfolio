@@ -46,7 +46,7 @@ ul {
   margin: 1rem;
 }
 
-.social-icons a:hover {
+.social-icons i:hover {
   color: #212121;
 }
 
@@ -345,6 +345,7 @@ a:hover {
 /* Nav */
 .topnav {
   overflow: hidden;
+  background: #07689f;
 }
 
 .topnav a {
@@ -369,6 +370,8 @@ a:hover {
 
 .topnav .icon {
   display: none;
+  background: #07689f;
+
 }
 
 /* Full Screen Card */
@@ -605,7 +608,7 @@ textarea {
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
-    margin-bottom: 3rem;
+    background: #07689f;
   }
   .topnav.responsive .icon {
     position: absolute;
