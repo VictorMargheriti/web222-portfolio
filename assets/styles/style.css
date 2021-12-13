@@ -19,11 +19,42 @@ section {
   padding: 100px 20vw;
 }
 
+.titleh1 {
+    margin-top: 2rem;
+}
+
 ul {
   list-style: none;
 }
 
+.profile-img {
+  margin: 1.5rem;
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 1rem;
+}
+
+.social-icons a:hover {
+  color: #212121;
+}
+
 .contact-page {
+  background-color: #07689f;
+}
+
+.blue-nav {
   background-color: #07689f;
 }
 
@@ -131,6 +162,14 @@ a:hover {
   font-size: 2.5rem;
 }
 
+#reflection-header {
+    font-size: 2em;
+}
+
+#reflection {
+    font-size: 20px;
+}
+
 .container-horizontal {
   display: flex;
   flex-direction: row;
@@ -181,6 +220,7 @@ a:hover {
 
 .dark {
   background: #212121;
+  min-height: 80vh;
 }
 
 .grey {
@@ -281,6 +321,27 @@ a:hover {
   fill: #bdbdbd;
 }
 
+/* Shape divider footer */
+.custom-shape-divider-top-1639422398 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1639422398 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 44px;
+}
+
+.custom-shape-divider-top-1639422398 .shape-fill {
+  fill: #212121;
+}
+
 /* Nav */
 .topnav {
   overflow: hidden;
@@ -319,7 +380,7 @@ a:hover {
   padding: 2rem;
   margin: 2rem;
   width: 90vw;
-  height: 85vh;
+  height: 100vh;
   color: #07689f;
 }
 
@@ -437,6 +498,18 @@ a:hover {
   text-align: center;
 }
 
+textarea {
+    color: #212121;
+}
+
+#div1 {
+    display: none;
+}
+
+#div2 {
+    display: none;
+}
+
 /* mobile-responsive media queries */
 @media (max-width: 800px) {
   .container-horizontal {
@@ -470,9 +543,11 @@ a:hover {
   }
 
   .left:hover {
+      transform: none;
   }
 
   .right:hover {
+    transform: none;
   }
 
   .header-options {
@@ -482,10 +557,6 @@ a:hover {
 
   .header-options li {
     margin: 0.5rem;
-  }
-
-  .lightgrey {
-    display: none;
   }
 
   .custom-shape-divider-bottom-1639192760 {
@@ -500,7 +571,7 @@ a:hover {
     padding: 2rem;
     margin: 2rem;
     width: 90vw;
-    height: auto;
+    /* height: auto; */
     color: #07689f;
   }
 
@@ -534,6 +605,7 @@ a:hover {
 @media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
+    margin-bottom: 3rem;
   }
   .topnav.responsive .icon {
     position: absolute;
